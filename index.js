@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 });
 
 // YOUR INFINITYFREE LAYER 2
-const LAYER2 = 'https://ice-cream-v2.free.nf';
+const LAYER2 = 'https://ice-cream-v2.free.nf/index.php';
 
 app.get('*', async (req, res) => {
   try {
